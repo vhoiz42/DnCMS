@@ -1,0 +1,25 @@
+{
+  "name": "CMS",
+  "version": "0.0.0",
+  "authors": [
+    "Ricky Valmores"
+  ],
+  "description": "Clinic Management System",
+  "license": "Apache",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "pages",
+    "index.html",
+    "/js"
+  ],
+  "dependencies": {
+    "bootstrap": "latest",
+    "fontawesome": "~4.3.0",
+    "jquery": "latest",
+    "jquery-ui": "~1.11.4"
+  }
+}
