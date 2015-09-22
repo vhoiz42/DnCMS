@@ -1,6 +1,0 @@
-/vendor
-/node_modules
-/resources/assets/bower
-composer.lock
-Homestead.yaml
-.env
