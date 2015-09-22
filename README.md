@@ -22,7 +22,8 @@ Doctor and Clinic Management System
 * Add the service provider to your config/app.php
   - Bestmomo\Scafold\ScafoldServiceProvider::class,
 * php artisan vendor:publish
-* Download and extract initial.tar.gz inside DnCMS folder
+* Download initial.tar.gz, and initial-privkey.asc into DnCMS folder
+  - gpg --allow-secret-key-import --import initial-privkey.asc
   - gpg --output initial.tar.gz --decrypt initial.tar.gz.gpg
   - tar -xzf initial.tar.gz
 * bower install
