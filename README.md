@@ -11,7 +11,8 @@ Doctor and Clinic Management System
   - npm install -g bower
 * [Gulp](https://www.npmjs.com/package/gulp-install)
   - npm install -g gulp
-
+*[rng-tools]
+  - yum install rng-tools
 
 ## Installation
 * composer create-project laravel/laravel DnCMS --prefer-dist
