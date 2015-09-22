@@ -24,4 +24,4 @@ Doctor and Clinic Management System
 * bower install
 * npm install
 * gulp
-----Done----
+* ---Done---
