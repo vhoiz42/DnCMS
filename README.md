@@ -9,7 +9,7 @@ Doctor and Clinic Management System
   - mv composer.phar /usr/local/bin/composer
 * [Bower](http://bower.io/)
   - npm install -g bower
-* [Glup](https://www.npmjs.com/package/gulp-install)
+* [Gulp](https://www.npmjs.com/package/gulp-install)
   - npm install -g gulp
 
 
