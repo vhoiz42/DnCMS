@@ -11,7 +11,7 @@ Doctor and Clinic Management System
   - npm install -g bower
 * [Gulp](https://www.npmjs.com/package/gulp-install)
   - npm install -g gulp
-*[rng-tools]
+* [rng-tools](https://www.gnu.org/software/hurd/user/tlecarrour/rng-tools.html)
   - yum install rng-tools
 
 ## Installation
