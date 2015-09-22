@@ -23,6 +23,8 @@ Doctor and Clinic Management System
   - Bestmomo\Scafold\ScafoldServiceProvider::class,
 * php artisan vendor:publish
 * Download and extract initial.tar.gz inside DnCMS folder
+  - gpg --output initial.tar.gz --decrypt initial.tar.gz.gpg
+  - tar -xzf initial.tar.gz
 * bower install
 * npm install
 * gulp
