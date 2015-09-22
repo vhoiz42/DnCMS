@@ -11,7 +11,14 @@ var elixir = require('laravel-elixir');
  |
  */
 
+ 
+
 elixir(function(mix) {
+	mix.copy('appPatch/initial/app', 'app');
+	mix.copy('appPatch/initial/resources', 'resources');
+	mix.copy('appPatch/initial/AuthenticatesUsers.php', 'vendor/laravel/framework/src/Illuminate/Foundation/Auth/');
+	mix.copy('appPatch/initial/RedirectsUsers.php', 'vendor/laravel/framework/src/Illuminate/Foundation/Auth/');
+	
 	mix.styles([
         '../bower/fontawesome/css/font-awesome.min.css',
 		'bootstrap-dialog.min.css',
@@ -42,4 +49,6 @@ elixir(function(mix) {
 	mix.copy('resources/assets/bower/bootstrap/fonts', 'public/fonts');
 	mix.copy('resources/assets/js/DataTables/media/images', 'public/images');
 	mix.copy('resources/assets/js/DataTables/extensions/Scroller/images', 'public/images');
+	mix.copy('resources/assets/js/app.js', 'public/js/');
+	mix.copy('resources/assets/css/app.css', 'public/css/');
 });
