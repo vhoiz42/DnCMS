@@ -18,7 +18,8 @@ Doctor and Clinic Management System
 * cd DnCMS 
 * composer require bestmomo/scafold dev-master
 * composer update
-* Add the service provider to your config/app.php : Bestmomo\Scafold\ScafoldServiceProvider::class,
+* Add the service provider to your config/app.php
+  - Bestmomo\Scafold\ScafoldServiceProvider::class,
 * php artisan vendor:publish
 * Download and extract initial.tar.gz inside DnCMS folder
 * bower install
