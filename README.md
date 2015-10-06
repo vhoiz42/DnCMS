@@ -18,6 +18,7 @@ Doctor and Clinic Management System
 * composer create-project laravel/laravel DnCMS --prefer-dist
 * cd DnCMS 
 * composer require bestmomo/scafold dev-master
+* composer require nicolaslopezj/searchable
 * composer update
 * Add the service provider to your config/app.php
   - Bestmomo\Scafold\ScafoldServiceProvider::class,
