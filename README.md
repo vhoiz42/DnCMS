@@ -2,6 +2,8 @@
 Doctor and Clinic Management System
 
 ## Requirements
+* [git](github.com)
+* - yum install git
 * [npm](https://docs.npmjs.com/cli/install)
   - yum install npm
 * [Composer](https://getcomposer.org/download/) 
