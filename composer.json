@@ -1,0 +1,21 @@
+{
+    "name": "vhoiz42/DnCMS",
+    "description": "Doctor and Clinic Management System",
+    "keywords": ["clinic", "doctor", "patient", "results", "records"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vhoiz42@yahoo.com",
+            "email": "vhoiz42@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "vhoiz42\\DnCMS\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
